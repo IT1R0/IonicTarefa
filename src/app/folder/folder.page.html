@@ -8,14 +8,15 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  
+  <div class="container">
+    <img class="img_logo" src="../../assets/nike.png" alt="Logo Nike">
+    <img class="img_tenisV" src="../../assets/image-removebg-preview (3) 1.png" alt="Tênis">
+    <h1 class="title">SUMMER <br> COLLECTIONS</h1>
+    <h2 class="sub">2022</h2>
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae porta ante. Suscipit suscipit massa justo consequat accumsan.</p>
+    <div class="action-buttons">
+      <ion-button [routerLink]="['/inicio']" class="btn-primary">GET STARTED </ion-button>
+    </div>
   </div>
 </ion-content>
